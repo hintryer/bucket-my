@@ -1,0 +1,13 @@
+scoop install bucket-my/git
+scoop install bucket-my/7zip
+scoop install bucket-my/ffmpeg
+scoop install FSViewer
+scoop install steamcommunity-302
+scoop install bucket-my/emeditor
+scoop install bili23downloader
+scoop install 7zip git steamcommunity
+scoop install steamcommunity
+scoop install chrome-core
+scoop install chrome-plus
+scoop config proxy 
+https://gh-proxy.org/
