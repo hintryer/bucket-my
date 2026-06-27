@@ -1,4 +1,10 @@
 # setup-my-env.ps1
+
+# 1. 设置 Scoop 的安装目录环境变量
+$env:SCOOP='D:\Apps\Scoop'
+# 2. 将这个环境变量永久写入用户配置 (下次打开 PowerShell 依然有效)
+[Environment]::SetEnvironmentVariable('SCOOP', $env:SCOOP, 'User')
+
 scoop bucket rm main
 scoop bucket add main https://mirror.nju.edu.cn/git/scoop-main.git
 
